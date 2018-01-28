@@ -1,0 +1,76 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelloAndroid"
+    android:orientation = "vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/unique"
+        android:scaleType="centerCrop"
+        tools:ignore="contentdescription"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation = "vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/udacity"
+            android:padding = "8dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_2465_latham_st"
+            android:padding = "8dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mountain_view_ca_94043"
+            android:padding = "8dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_650_555_5555"
+            android:padding = "8dp"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/link"
+            android:autoLink="all"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/www_udacity_com"
+            android:padding = "8dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A_unique_education_in_a_unique_world."
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:padding="18dp"
+            android:background="#5C6BC0"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
