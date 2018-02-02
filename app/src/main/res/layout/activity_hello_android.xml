@@ -32,7 +32,7 @@
         android:autoLink="all"
         android:background="#bcd4e6"
         android:padding="8dp"
-        android:text="2465 Latham St\nMountain View, CA 94043"
+        android:text="@string/address"
         android:textColor="#000000"
         android:textColorLink="@android:color/black"
         android:textSize="16sp" />
@@ -53,8 +53,6 @@
         android:layout_height="wrap_content"
         android:autoLink="all"
         android:background="#bcd4e6"
-        android:clickable="true"
-        android:focusable="true"
         android:padding="8dp"
         android:text="@string/www_udacity_com"
         android:textColor="#000000"
