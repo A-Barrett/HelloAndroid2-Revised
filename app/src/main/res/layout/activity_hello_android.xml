@@ -1,79 +1,76 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/link"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".HelloAndroid"
-    android:orientation = "vertical">
+    android:autoLink="all"
+    android:orientation="vertical"
+    tools:context=".HelloAndroid">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:src="@drawable/unique"
         android:scaleType="center"
-        tools:ignore="contentdescription"/>
+        android:src="@drawable/unique"
+        tools:ignore="contentdescription" />
 
 
-        <TextView
-            android:id="@+id/bottom_background"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/udacity"
-            android:padding = "8dp"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            android:background="#bcd4e6"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/_2465_Latham_St"
-            android:padding = "8dp"
-            android:textColor="#000000"
-            android:textSize="16sp"
-            android:background="#bcd4e6"/>
+    <TextView
+        android:id="@+id/bottom_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bcd4e6"
+        android:padding="8dp"
+        android:text="@string/udacity"
+        android:textColor="#000000"
+        android:textSize="24sp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/mountain_view_ca_94043"
-            android:padding = "8dp"
-            android:textColor="#000000"
-            android:textSize="16sp"
-            android:background="#bcd4e6"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/_650_555_5555"
-            android:padding = "8dp"
-            android:textColor="#000000"
-            android:textSize="16sp"
-            android:background="#bcd4e6"
-            android:autoLink="phone"
-            android:textColorLink="@android:color/black"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/link"
-            android:autoLink="all"
-            android:clickable="true"
-            android:focusable="true"
-            android:textColorLink="@android:color/black"
-            android:text="@string/www_udacity_com"
-            android:padding = "8dp"
-            android:textColor="#000000"
-            android:textSize="16sp"
-            android:background="#bcd4e6"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/A_unique_education_in_a_unique_world."
-            android:textSize="16sp"
-            android:gravity="center_horizontal"
-            android:textColor="#FFFFFF"
-            android:padding="18dp"
-            android:background="#5C6BC0"
-            android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:background="#bcd4e6"
+        android:padding="8dp"
+        android:text="2465 Latham St\nMountain View, CA 94043"
+        android:textColor="#000000"
+        android:textColorLink="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:background="#bcd4e6"
+        android:padding="8dp"
+        android:text="@string/_650_555_5555"
+        android:textColor="#000000"
+        android:textColorLink="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:background="#bcd4e6"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"
+        android:text="@string/www_udacity_com"
+        android:textColor="#000000"
+        android:textColorLink="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5C6BC0"
+        android:gravity="center_horizontal"
+        android:padding="18dp"
+        android:text="@string/A_unique_education_in_a_unique_world."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
 
